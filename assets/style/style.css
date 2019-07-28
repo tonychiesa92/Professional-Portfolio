@@ -1,6 +1,7 @@
 #leftSideNav{
-    
+    height: 100%;
     background-color: #0F5D82;
+    
 }
 
 .nav-link{
@@ -18,4 +19,20 @@ margin-left: 0px;
     margin-left: 0px;
     margin-right: 0px;
     width:100%;
+}
+
+#name{
+    font-weight: bold;
+}
+
+.jumbotron{
+    margin-bottom: 0px;
+}
+
+a:hover { 
+    color: black;
+}
+
+#about-info{
+    margin-left: 10px;
 }
