@@ -1,4 +1,18 @@
+#leftSideNav{
+    
+    background-color: #0F5D82;
+}
 
-body{
-    background-color: red;
+.nav-link{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+#everything{
+margin-left: 0px;
+}
+
+.img-fluid{
+    margin-bottom: 20px;
 }
