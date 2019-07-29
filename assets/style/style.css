@@ -19,7 +19,6 @@ html, body{
 #everything{
     margin-left: 0px;
     height: 100%;
-    border:2px solid black;
 }
 
 #mePic{
@@ -52,3 +51,8 @@ a:hover {
     margin-left: 20px;
 }
 
+.portfolio-info {
+    overflow-x: hidden;
+    height: 100vh;
+    overflow-y: scroll;
+  }
