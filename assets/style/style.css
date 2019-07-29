@@ -1,7 +1,13 @@
-#leftSideNav{
+html, body{
     height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.leftSideNav{
+    margin-left: 0px;
+    margin-right: 0px;
     background-color: #0F5D82;
-    
 }
 
 .nav-link{
@@ -11,14 +17,19 @@
 }
 
 #everything{
-margin-left: 0px;
+    margin-left: 0px;
+    height: 100%;
+    border:2px solid black;
+}
+
+#mePic{
+    margin-top: 13px;
+    
 }
 
 .img-fluid{
     margin-bottom: 20px;
-    margin-left: 0px;
-    margin-right: 0px;
-    width:100%;
+   
 }
 
 #name{
