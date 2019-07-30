@@ -14,7 +14,10 @@ html, body{
     text-align: center;
     color: white;
     font-weight: bold;
+    margin-bottom: 30px;
 }
+
+
 
 #everything{
     margin-left: 0px;
@@ -23,7 +26,8 @@ html, body{
 
 #mePic{
     margin-top: 13px;
-    
+    margin-bottom: 5px;
+
 }
 
 .img-fluid{
@@ -52,7 +56,10 @@ a:hover {
 }
 
 .portfolio-info {
+
     overflow-x: hidden;
     height: 100vh;
     overflow-y: scroll;
+   
   }
+
