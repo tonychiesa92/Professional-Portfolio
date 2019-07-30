@@ -6,7 +6,7 @@ html, body{
 
 .leftSideNav{
     margin-left: 0px;
-    margin-right: 0px;
+    height: 100vh;
     background-color: #0F5D82;
 }
 
@@ -56,10 +56,9 @@ a:hover {
 }
 
 .portfolio-info {
-
+    width: 100vh;
     overflow-x: hidden;
     height: 100vh;
     overflow-y: scroll;
-   
   }
 
