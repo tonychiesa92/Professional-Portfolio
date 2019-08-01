@@ -6,7 +6,8 @@ html, body{
 
 .leftSideNav{
     margin-left: 0px;
-    height: 100vh;
+    height: 100%;
+    min-height: 100vh;
     background-color: #0F5D82;
 }
 
@@ -14,7 +15,7 @@ html, body{
     text-align: center;
     color: white;
     font-weight: bold;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 
@@ -56,9 +57,11 @@ a:hover {
 }
 
 .portfolio-info {
-    width: 100vh;
     overflow-x: hidden;
     height: 100vh;
     overflow-y: scroll;
   }
 
+#contact-info{
+    margin-left: 20px;
+}
