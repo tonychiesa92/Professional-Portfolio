@@ -15,7 +15,7 @@ html, body{
     text-align: center;
     color: white;
     font-weight: bold;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
 #everything{
@@ -41,6 +41,11 @@ html, body{
 .jumbotron{
     margin-bottom: 0px;
     background: none;
+}
+
+.card{
+    background: none;
+    border: none;
 }
 
 a:hover { 
