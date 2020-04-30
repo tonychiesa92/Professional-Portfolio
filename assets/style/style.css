@@ -1,4 +1,4 @@
-html,
+/* html,
 body {
   height: 100%;
   margin: 0px;
@@ -73,6 +73,67 @@ a:hover {
 #contact-info {
   margin-left: 20px;
 }
+ */
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #0f5d82;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  font-weight: bold;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  text-align: center;
+}
+ 
+.sidebar a.active {
+  background-color: #555;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 100%;
+}
+
+#mePic {
+  margin-top: 13px;
+  margin-bottom: 5px;
+}
+.jumbotron{
+  margin-bottom: 0px;
+  background: none;
+}
+.card {
+  background: none;
+  border: none;
+  margin-bottom: 5px;
+}
+
+#portcard {
+  background: #ffffff;
+  border: 1px;
+}
+
 .timeline {
   list-style: none;
   padding: 20px 0 20px;
@@ -241,5 +302,34 @@ a:hover {
     border-right-width: 14px;
     left: -14px;
     right: auto;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+  #mePic{
+    display: none;
+  }
+  hr{
+    display:none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+  #mePic{
+    display: none;
+  }
+  hr{
+    display:none;
   }
 }
